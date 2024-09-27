@@ -4,22 +4,22 @@ import './Projects.css';
 const projects = [
     {
         title: 'DESIGN PORTFOLIO',
-        description: 'PHP, HTML, CSS',
-        image: '/images/page1.png'
+        description: 'PHP HTML CSS',
+        image: '/images/page5.png'
       },
       {
         title: 'MAGICFIBER PAGE',
-        description: 'WORDPRESS, HTML, CSS',
+        description: 'WORDPRESS HTML CSS',
         image: '/images/page2.png'
       },
       {
         title: 'ALTURAPHOTO CATALOG',
-        description: 'MAGENTO, PHP, HTML, CSS, JAVASCRIPT',
+        description: 'MAGENTO PHP HTML LESS JAVASCRIPT',
         image: '/images/page3.png'
       },
       {
         title: 'USER REPORT PAGE',
-        description: 'VUE.JS, QUASAR, HTML, SASS, JAVASCRIPT',
+        description: 'VUE.JS QUASAR HTML SASS JAVASCRIPT',
         image: '/images/page4.png'
       }
 ];

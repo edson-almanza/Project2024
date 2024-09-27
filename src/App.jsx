@@ -1,11 +1,12 @@
 
 import './App.css'
-import AboutMe from './components/AboutMe/AboutMe'
-import Skills from './components/Skills/Skills'
-import Projects from './components/Projects/Projects'
-import Blog from './components/Blog/Blog'
-import Contact from './components/Contact/Contact'
-import Menu from './components/Menu/Menu'
+import Menu from './components/Menu/Menu';
+import AboutMe from './components/AboutMe/AboutMe';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import Blog from './components/Blog/Blog';
+import Contact from './components/Contact/Contact';
+import ContactInfo from './components/ContactInfo/ContactInfo';
 
 import { useState } from 'react';
 
@@ -21,7 +22,7 @@ function App() {
           <AboutMe setActive={setActive} />
           <hr style={{ color: 'white', margin: '40px 0' }} />
           <Skills/>
-          <hr style={{ color: 'transparent', margin: '40px 0' }} />
+          
           <Projects setActive={setActive} />
           <Contact/>
         </section>
@@ -33,7 +34,8 @@ function App() {
       )}
       { active === "Contact" && (
         <section>
-          <Contact />
+          <Contact/>
+          <ContactInfo/>
         </section>
       )}
       <hr style={{ color: 'white', margin: '40px 0' }} />

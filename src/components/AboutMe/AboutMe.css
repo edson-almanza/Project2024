@@ -12,13 +12,21 @@
   text-align: center;
 }
 
+.about-me-name {
+  cursor: pointer;
+  border-bottom:  2px solid rgb(74, 181, 243);
+}
+
+.about-me-name:hover {
+  color: rgb(74, 181, 243);
+}
+
 .about-me-button {
   background: none;
   color: white;
   border: none;
   padding: 0;
   cursor: pointer;
-  text-transform: uppercase;
   border-bottom: 2px solid rgb(74, 181, 243);
   font-weight: bold;
 }
