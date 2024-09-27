@@ -29,8 +29,8 @@ const ContactInfo = () => {
         <div className='contact-info-title'>
           <h1>Contact me also by: </h1>
         </div>
-        {contactDetails.map((item, index) => (
-          <div className="contact-info-card" key={index}>
+        {contactDetails.map((item, idx) => (
+          <div className="contact-info-card" key={idx}>
             <div className="contact-info-icon">{item.icon}</div>
             <h3 className="contact-info-card-title">{item.title}</h3>
             <p className="contact-info-description">{item.description}</p>
