@@ -1,0 +1,35 @@
+.about-me-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-me-left {
+  width: 50%;
+}
+
+.about-me-right {
+  width: 50%;
+  text-align: center;
+}
+
+.about-me-button {
+  background: none;
+  color: white;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgb(74, 181, 243);
+  font-weight: bold;
+}
+
+.about-me-button:hover {
+  color:  rgb(74, 181, 243);
+}
+
+.about-me-image {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+
+}

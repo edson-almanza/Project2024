@@ -1,0 +1,15 @@
+.main-content {
+
+  color: white;
+  margin: 0 10rem;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin: 0 1rem;
+  }
+}
+
+
+

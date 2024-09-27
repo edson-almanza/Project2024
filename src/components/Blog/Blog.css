@@ -1,0 +1,8 @@
+.blog-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.table {
+  width: 100%;
+} 

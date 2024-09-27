@@ -1,0 +1,32 @@
+.projects-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px
+}
+
+.projects-column {
+  flex: 1 1 calc(50% - 40px);
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.projects-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.projects-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .projects-column {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}

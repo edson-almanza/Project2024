@@ -1,0 +1,39 @@
+.menu-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.menu-left {
+  display: flex;
+  gap: 15px;
+}
+
+.menu-right {
+  display: flex;
+  gap: 15px;
+}
+
+.menu-nav {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.menu-nav:hover {
+  color: rgb(74, 181, 243);
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.menu-nav.active {
+  color: rgb(74, 181, 243);
+}

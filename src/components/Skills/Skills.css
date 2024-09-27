@@ -1,0 +1,24 @@
+.skills-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-column {
+  width: 25%;
+}
+
+.skills-column h1 {
+  line-height: 0;
+}
+
+@media (max-width: 1400px) {
+  .skills-column {
+    flex: 1 1 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-column {
+    flex: 1 1 100%;
+  }
+}
